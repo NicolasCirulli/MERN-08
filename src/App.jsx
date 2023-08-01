@@ -1,8 +1,11 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
-    <>
-      <h1>Amazing Events</h1>
-    </>
+    <div className="app-layout">
+      <header className="app-header">Nav</header>
+      <main className="app-main">main</main>
+      <footer className="app-footer">footer</footer>
+    </div>
   );
 }
 
