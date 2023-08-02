@@ -1,11 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./pages/Home/Home";
+import Events from "./pages/Events/Events";
+
 function App() {
   return (
-    <div className="app-layout">
-      <header className="app-header">Nav</header>
-      <main className="app-main">main</main>
-      <footer className="app-footer">footer</footer>
-    </div>
+    <>
+      <Home />
+      {/*   <Events /> */}
+    </>
   );
 }
 
