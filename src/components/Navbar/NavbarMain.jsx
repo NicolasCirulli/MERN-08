@@ -1,8 +1,8 @@
-import React from "react";
+import "./navbarmain.css";
 
 const NavbarMain = () => {
   return (
-    <nav>
+    <nav className="Navbar-main">
       <a href="#">Home</a>
       <a href="#">Events</a>
       <a href="#">Contact</a>

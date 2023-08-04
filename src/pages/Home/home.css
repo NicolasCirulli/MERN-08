@@ -1,0 +1,26 @@
+.home-hero{
+    height: 30vh;
+    display: grid;
+    place-content: center;
+    background-color: rgb(242, 242, 245);
+    width: 90vw;
+    max-width: 1440px;
+
+    background-image: url('https://pbs.twimg.com/media/CgcXZVAXIAA2koy?format=jpg&name=large');
+    background-position: 20%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.home-hero-title{
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.home-carousel{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-grow: 1;
+}
