@@ -3,7 +3,8 @@
     display: grid;
     place-content: center;
     background-color: rgb(242, 242, 245);
-    width: 80vw;
+    width: 90vw;
+    max-width: 1440px;
 
     background-image: url('https://pbs.twimg.com/media/CgcXZVAXIAA2koy?format=jpg&name=large');
     background-position: 20%;
